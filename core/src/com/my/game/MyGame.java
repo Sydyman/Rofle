@@ -65,7 +65,8 @@ public class MyGame extends ApplicationAdapter {
 		nasDrops.y = 480;
 		nasDrops.width = 64;
 		nasDrops.height = 64;
-		nasDrop.add(nasDrops); // Добавляем объект в массив nasDrop
+		nasDrop.add(nasDrops); 
+		
 		lastNasTime = TimeUtils.nanoTime();
 	}
 
